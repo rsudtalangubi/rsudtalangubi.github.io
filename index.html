@@ -4,9 +4,9 @@
 <head>
 
   <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="img/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/sytle.css">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -16,7 +16,7 @@
   <script src="js/bootstrap.bundle.js"></script>
 
 
-  <title>Hello</title>
+  <title>Website</title>
 </head>
 
 <body>
@@ -40,14 +40,16 @@
               aria-haspopup="true" aria-expanded="false">
               Layanan
             </a>
-            <div class="dropdown-menu" aria-labelledby="layanan">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-menu bg-info" aria-labelledby="layanan">
+              <a class="dropdown-item" href="#igd">IGD</a>
+              <a class="dropdown-item" href="#poli">Poli</a>
+              <a class="dropdown-item" href="#radio">Radiologi</a>
+              <a class="dropdown-item" href="#labor">Laboratorium</a>
+              <a class="dropdown-item" href="#lain">Fasilitas Lainnya</a>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Kontak</a>
+            <a class="nav-link" href="#kontak">Kontak</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Data</a>
@@ -60,6 +62,7 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -83,6 +86,13 @@
             <p>Layanan 24 Jam</p>
           </div>
         </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/taman.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Taman Bermain</h2>
+            <p>Layanan 24 Jam</p>
+          </div>
+        </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -93,6 +103,24 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <div class="container">
+      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="igd">IGD</h4>
+        <p>...</p>
+        <h4 id="poli">Poli</h4>
+        <p>...</p>
+        <h4 id="radio">Radiologi</h4>
+        <p>...</p>
+        <h4 id="labor">Laboratorium</h4>
+        <p>...</p>
+        <h4 id="lain">Fasilitas Lainnya</h4>
+        <p>...</p>
+        <h4 id="kontak">Kontak Kami</h4>
+        <p>...</p>
+      </div>
+    </div>
+
+
 
     <div class="jumbotron text-center" style="margin-bottom:0">
       <p>Footer</p>
